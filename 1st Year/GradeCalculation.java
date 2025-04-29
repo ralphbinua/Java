@@ -1,8 +1,10 @@
+import java.util.*;
+
 public class GradeCalculation {
     public static void main(String[] args) {
-       
+
         //  Ralph Gabriel B. Binua 1BSIT-5 InterProg+
-        
+
         // Declaring datatypes and variables
         String studentName, gradeScale = "";
        int mathGrade, scienceGrade, englishGrade, totalGrades = 0;
@@ -27,7 +29,7 @@ public class GradeCalculation {
 
         // Total grades
         totalGrades = (englishGrade + mathGrade+ scienceGrade) / 3;
-        
+
         if(totalGrades >100){
             gradeScale = "Invalid Input";
         }
@@ -46,6 +48,6 @@ public class GradeCalculation {
         // Output of the Code
 
         System.out.println("\nHello " + studentName + ", your Grade is " + gradeScale +".");
-        
+
     }
 }

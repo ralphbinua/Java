@@ -2,19 +2,19 @@
 
 import java.util.Scanner;
 
-public class Ch7_PrExercise3 {
+public class Methods {
 
     public static void main(String[]args){
         Scanner input = new Scanner(System.in);
-        
+
         System.out.print("Enter First Number: ");
         int numOne = input.nextInt();
 
         System.out.print("Enter Second Number: ");
         int numTwo = input.nextInt();
-        
+
         int twoNumber = one(numOne,numTwo);
-        
+
         System.out.println(twoNumber);
 
         System.out.print("Enter Third number: ");
@@ -28,7 +28,7 @@ public class Ch7_PrExercise3 {
         System.out.print(oneNumber);
 
     }
-    
+
     public static int one (int x, int y){
           if(x>y){
               int oneReturn = x+y;
@@ -40,11 +40,11 @@ public class Ch7_PrExercise3 {
           }
 
     }
-    
+
     public static double two(int x, double a){
         int first;
         double z = x;
-        
+
        z = z+a;
 
        first = one(6,8);

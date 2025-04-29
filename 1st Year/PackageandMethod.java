@@ -3,7 +3,7 @@
 import java.util.Scanner;
 import java.text.*;
 
-public class Main {
+public class PackageandMethod {
     public static void main(String[] args) {
 
         String name;
